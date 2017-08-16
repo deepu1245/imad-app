@@ -7,27 +7,27 @@ app.use(morgan('combined'));
 
 var articles = {
     'article1': {
-        title: "Article 1 | Deepak Bhat",
-        heading: "Article One",
-        date: "Sep 6, 2016",
+        title: 'Article 1 | Deepak Bhat',
+        heading: 'Article One',
+        date: 'Sep 6, 2016',
         content: 
         `<p>
             This is article 1.
         </p>`
     },
     'article2': {
-        title: "Article 2 | Deepak Bhat",
-        heading: "Article Two",
-        date: "Sep 16, 2016",
+        title: 'Article 2 | Deepak Bhat',
+        heading: 'Article Two',
+        date: 'Sep 16, 2016',
         content: 
         `<p>
             This is article 2.
         </p>`
     },
     'article3': {
-        title: "Article 3 | Deepak Bhat",
-        heading: "Article Three",
-        date: "Sep 26, 2016",
+        title: 'Article 3 | Deepak Bhat',
+        heading: 'Article Three',
+        date: 'Sep 26, 2016',
         content: 
         `<p>
             This is article 3.
