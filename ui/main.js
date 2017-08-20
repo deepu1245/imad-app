@@ -14,6 +14,6 @@ button.onclick = function() {
           }
       }
     };
-    request.open('GET','http://deepakbht67.imad.hasura-app.io',true);
+    request.open('GET',"http://deepakbht67.imad.hasura-app.io",true);
     request.send(null);
 };
