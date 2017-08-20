@@ -1,7 +1,9 @@
-console.log('Loaded!');
+var button = document.getElementById("counter");
+var counter = 0;
 
-var marginLeft = 0;
-var img = document.getElementById("image");
-img.onclick=function (){
-    img.stlye.marginLeft= '100px';
+button.onClick = function() {
+    counter = counter + 1;
+    var span = document.getElementById("count");
+    span.innerHTML = counter.toString();
+    
 };
