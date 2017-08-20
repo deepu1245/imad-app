@@ -2,9 +2,9 @@ var button = document.getElementById("counter");
 
 button.onclick = function() {
     
-    var request = new xmlHttpRequest();
+    var request = new XMLHttpRequest();
     request.onreadystatechange = function() {
-      if(request.readyState === xmlHttpRequest.DONE)  
+      if(request.readyState === XMLHttpRequest.DONE)  
       {
           if(request.status == 200)
           {
@@ -14,6 +14,6 @@ button.onclick = function() {
           }
       }
     };
-    request.open('GET','deepakbht67.imad.hasura-app.io',true);
+    request.open('GET','http://deepakbht67.imad.hasura-app.io',true);
     request.send(null);
 };
